@@ -1,0 +1,60 @@
+html{
+    background-color: rgb(215, 216, 250);
+    /*overflow-y: hidden;*/
+} 
+
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    background-color: aliceblue;
+}
+#headerBanner,h1,footer{
+    text-align: center;
+}
+
+
+
+
+
+.navbar{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.navbar>li{
+    background-color: rgb(113, 255, 180);
+    font-weight: bold;
+    font-size: 180%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    border-width: 2px;
+}
+
+.navbar>a{
+    text-decoration: none;
+    color: rgb(97, 142, 255);
+    font-weight: bold;
+}
+
+.navbar>li>a:hover{
+    font-size: 120%;
+    line-height: 150%;
+    color: rgb(78, 178, 255);
+}
+
+.navbar>li>a:active{
+    font-size: 120%;
+    line-height: 150%;
+    color: purple;
+}
+
+.navbar>li>a:visited{
+    font-size: 120%;
+    line-height: 150%;
+    color: rgb(0, 65, 0);
+}
+

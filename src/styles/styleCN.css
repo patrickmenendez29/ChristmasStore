@@ -1,0 +1,99 @@
+html{
+    background-color: rgb(215, 216, 250);
+    /*overflow-y: hidden;*/
+} 
+
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    background-color: aliceblue;
+}
+#headerBanner,h1,footer{
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.navbar>li{
+    background-color: rgb(113, 255, 180);
+    font-weight: bold;
+    font-size: 180%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    border-width: 2px;
+}
+
+.navbar>a{
+    text-decoration: none;
+    color: rgb(97, 142, 255);
+    font-weight: bold;
+}
+
+.navbar>li>a:hover{
+    font-size: 120%;
+    line-height: 150%;
+    color: rgb(78, 178, 255);
+}
+
+.navbar>li>a:active{
+    font-size: 120%;
+    line-height: 150%;
+    color: purple;
+}
+
+.navbar>li>a:visited{
+    font-size: 120%;
+    line-height: 150%;
+    color: rgb(0, 65, 0);
+}
+
+input {
+    width: 15%
+    
+}
+
+input [type=text] {
+    border: 2px solid rgb(97, 142, 255);
+    
+}
+
+h1 {
+    font-family: 'Signika Negative', sans-serif;
+    color: #405cf5;
+    font-size: 50px; 
+  }
+
+#rect1 { 
+    fill: url(#Gradient1); 
+    margin:auto;
+}
+.stop1 { 
+    stop-color: rgb(97, 142, 255); 
+}
+.stop2 { 
+    stop-color: rgb(113, 255, 180);
+    stop-opacity: 0; 
+}
+header,nav ul{
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(110, 119, 224);
+    color: white;
+    text-align: center;
+}
